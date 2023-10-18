@@ -28,6 +28,8 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true
+    cards = []
+    sum = 0
     for (let i = 0; i < 2; i++) {
         let card = getRandomCard()
         cards.push(card)
