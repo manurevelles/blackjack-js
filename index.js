@@ -28,6 +28,7 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true
+    hasBlackJack = false
     cards = []
     sum = 0
     for (let i = 0; i < 2; i++) {
